@@ -1,0 +1,180 @@
+
+
+
+.plane-img {
+  position: absolute;
+  animation: moveImage 5s linear infinite;
+  left: -350px;
+}
+
+@keyframes moveImage {
+    100% {
+      transform: translateX(calc(100vw + 350px));
+    }
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size:2.5rem;
+  color:#66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#11999E;
+}
+a {
+  color:#11999E;
+
+}
+a:hover {
+  color:#FAF6F6;
+}
+p, li {
+  color:#40514E;
+  font-weight:bold;
+}
+hr {
+  color:#EAF6F6;
+  width:10%;
+  border-width: 10px;
+  border-style:dotted none none;
+  margin:5% auto 5% auto;
+}
+th {
+  padding-bottom: 5%;
+}
+
+/***************CLASS TAG**************/
+
+.topcontainer {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.botcontainer {
+background-color:#66BFBF;
+margin-top:5%;
+padding-top:3% ;
+padding-bottom:1%;
+line-height: 3;
+}
+.box {
+  background-color:#e4f9f5 ;
+  overflow: hidden;
+}
+.mount {
+  width:5372; 
+  height: 2420;
+  transition: all linear 1s;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-right: auto;
+}
+
+.botcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.plane-img {
+  width: 200px;
+  position:absolute;
+  margin-left:200px;
+  margin-top:500px;
+  transition: all linear .7s;
+  z-index: 1;
+}
+
+.skill-img-left, .skill-img-right {
+  width: 20%;
+  height:20%;
+  max-height: 100px;
+  min-height: 80px;
+  width: auto;
+  background: none;
+
+
+}
+.skill-img-left {
+    margin-left: auto;
+    float:left;
+    margin-right:30px;
+
+
+}
+.skill-img-right {
+    margin-right: auto;
+    float:right;
+    margin-left:30px;
+
+    
+}
+
+.skill-row {
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.btn {
+  border-radius:10px;
+  background-color:#11999e;
+  color:white;
+  padding:1% 2%;
+  text-decoration:none;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.buttondiv {
+  margin-top:4%;
+}
+.footer-link {
+  color:#11999E;
+  text-decoration:none;
+  font-weight: bold;
+  padding-left:1%;
+  padding-right:1%;
+}
+.profile {
+  margin-top:5%;
+}
+.table-projects {
+  margin-left: auto;
+  margin-right: auto;
+}
+/***************CLASS TAG**************/
+
+
+/***************ID TAGS **************/
+#profileimg {
+  background-color:#e4f9f5;
+  border-radius:50%;
+  border:1px solid #ccc;
+}
+
+/***************ID TAGS **************/
